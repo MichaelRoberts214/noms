@@ -26,7 +26,7 @@ module.exports = function(environment) {
     'connect-src': "'self' *",
     'img-src': "'self'",
     'report-uri':"'localhost'",
-    'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
+    'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com https://fonts.googleapis.com/css?family=Raleway|Lobster|Lato",
     'frame-src': "'none'"
   }
 
