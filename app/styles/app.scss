@@ -1,6 +1,12 @@
 .top-nav {
 	display: block;
 	background-color: gray;
+	position: absolute;
+	width: 100vw;
+	margin: 0;
+	top: 0;
+	left: 0;
+	text-align: center;
 }
 
 .ember-view {
