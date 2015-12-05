@@ -1,0 +1,11 @@
+#top-nav {
+	display: block;
+	background-color: gray;
+}
+
+.ember-view {
+	& > h2 {
+		color: red !important;
+	}
+}
+
