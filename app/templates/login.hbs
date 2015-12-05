@@ -1,4 +1,25 @@
-<div class="header">
-	<h1>Noms</h1>
-	<h3>The App</h3>
+<div class="login">
+	<div class="login-header">
+		<h1>Noms</h1>
+		<h3>The App</h3>
+	</div>
+
+	{{!-- <form class="form-group" {{action 'authenticate' on='submit'}}> --}}
+	<form>
+	  {{input id='username'
+	          placeholder='Login@example.com'
+	          type='email'
+	          name='username'
+	          value=identification
+	          required='true'}}
+	  <br>
+	  {{input id='password'
+	          placeholder='Password'
+	          type='password'
+	          name='password'
+	          value=password
+	          required='true'}}
+	  <br>
+	  <input type="submit" value="login">
+	</form>
 </div>

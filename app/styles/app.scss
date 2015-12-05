@@ -16,6 +16,13 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+.login {
+
+	& > .login-header {
+		font-family: 'Lobster', cursive;
+	}
+}
+
 .ember-view {
 	& > h2 {
 		// color: red;
