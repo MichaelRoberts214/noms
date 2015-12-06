@@ -2,10 +2,10 @@
 
 <div class="vote-container">
 	<h1>Voting</h1>
-	<button>Cast a vote</button>
+	<button {{action 'toggleModal'}}>Cast a vote</button>
 	{{vote-table}}
 
 	{{#if showModal}}
-		{{vote-modal}}
+		{{vote-modal showModal=showModal}}
 	{{/if}}
 </div>
