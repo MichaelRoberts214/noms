@@ -1,1 +1,5 @@
-{{yield}}
+<div class="vote-table">
+	{{#each testData key="@index" as |data|}}
+		<p>{{data.restaurant}}</p>
+	{{/each}}
+</div>
