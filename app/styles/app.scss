@@ -32,10 +32,17 @@
 
 .vote-modal {
 	position: absolute;
-  top: 30%;
-  width: 100%;
+  top: 10%;
+  left: 0;
+  margin-left: 5vw;
+  width: 90vw;
+  height: 80vh;
   z-index: 5;
   background-color: gray;
+
+  & > .close-button {
+  	float: right;
+  }
 }
 
 .ember-view {
@@ -43,4 +50,12 @@
 		// color: red;
 	}
 }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 
