@@ -23,6 +23,12 @@
 	}
 }
 
+.vote-container {
+	display: inline-block;
+	position: absolute;
+	top: 69px;
+}
+
 .ember-view {
 	& > h2 {
 		// color: red;
