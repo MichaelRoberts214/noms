@@ -30,6 +30,13 @@
 	top: 69px;
 }
 
+.vote-modal {
+	position: absolute;
+  top: 30%;
+  width: 100%;
+  z-index: 5;
+}
+
 .ember-view {
 	& > h2 {
 		// color: red;

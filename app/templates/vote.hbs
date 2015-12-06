@@ -4,4 +4,8 @@
 	<h1>Voting</h1>
 	<button>Cast a vote</button>
 	{{vote-table}}
+
+	{{#if showModal}}
+		{{vote-modal}}
+	{{/if}}
 </div>
