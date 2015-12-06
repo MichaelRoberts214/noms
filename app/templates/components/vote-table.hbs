@@ -1,0 +1,9 @@
+<div class="vote-table">
+	<table>
+		{{#each testData key="@index" as |data|}}
+			<tr>
+				<td>{{data.restaurant}}</td> <td>{{data.votes}}</td>
+			</tr>
+		{{/each}}
+	</table>
+</div>
