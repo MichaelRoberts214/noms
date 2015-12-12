@@ -3,13 +3,13 @@
 <div class="vote-container">
 	<h1>Voting</h1>
 	<button {{action 'toggleModal'}}>Cast a vote</button>
-	{{vote-table list=testData}}
+	{{vote-table list=model}}
 
 	{{#if showModal}}
-		{{vote-modal showModal=showModal list=testData}}
+		{{vote-modal showModal=showModal list=model}}
 	{{/if}}
 
-	{{#each model as |restaurant|}}
+	{{!-- {{#each model as |restaurant|}}
 	  <p>{{restaurant.name}} {{restaurant.votes}}</p>
-	{{/each}}
+	{{/each}} --}}
 </div>
