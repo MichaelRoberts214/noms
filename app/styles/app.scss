@@ -30,9 +30,32 @@
 	top: 69px;
 }
 
+.vote-modal {
+	position: absolute;
+  top: 10%;
+  left: 0;
+  margin-left: 5vw;
+  width: 90vw;
+  height: 80vh;
+  z-index: 5;
+  background-color: gray;
+
+  & > .close-button {
+  	float: right;
+  }
+}
+
 .ember-view {
 	& > h2 {
 		// color: red;
 	}
 }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 

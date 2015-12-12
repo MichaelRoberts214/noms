@@ -1,16 +1,16 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-	testData: [{
-		restaurant: 'Costal',
+	list: [{
+		restaurant: 'Kostal',
 		votes: 1.2
 	},
 	{
-		restaurant: 'Goomba Bento',
+		restaurant: 'Goom Bento',
 		votes: 3.1
 	},
 	{
-		restaurant: 'Sriracha Plate',
+		restaurant: 'Super Plate',
 		votes: 2
 	}]
 });
