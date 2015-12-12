@@ -1,5 +1,5 @@
 import { moduleForComponent, test } from 'ember-qunit';
-import hbs from 'htmlbars-inline-precompile';
+// import hbs from 'htmlbars-inline-precompile';
 
 moduleForComponent('vote-modal', 'Integration | Component | vote modal', {
   integration: true

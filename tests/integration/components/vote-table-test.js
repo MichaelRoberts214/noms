@@ -1,5 +1,5 @@
 import { moduleForComponent, test } from 'ember-qunit';
-import hbs from 'htmlbars-inline-precompile';
+// import hbs from 'htmlbars-inline-precompile';
 
 moduleForComponent('vote-table', 'Integration | Component | vote table', {
   integration: true
