@@ -3,7 +3,7 @@
 <div class="vote-container">
 	<h1>Voting</h1>
 	<button {{action 'toggleModal'}}>Cast a vote</button>
-	{{vote-table}}
+	{{vote-table list=testData}}
 
 	{{#if showModal}}
 		{{vote-modal showModal=showModal list=testData}}

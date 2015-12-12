@@ -1,9 +1,13 @@
-<div class="vote-table">
-	<table>
-		{{#each testData key="@index" as |data|}}
-			<tr>
-				<td>{{data.restaurant}}</td> <td>{{data.votes}}</td>
-			</tr>
-		{{/each}}
-	</table>
-</div>
+<h1>asdf</h1>
+{{#if list}}
+	<p>qwerty</p>
+	<div class="vote-table">
+		<table>
+			{{#each list key="@index" as |data|}}
+				<tr>
+					<td>{{data.restaurant}}</td> <td>{{data.votes}}</td>
+				</tr>
+			{{/each}}
+		</table>
+	</div>
+{{/if}}
