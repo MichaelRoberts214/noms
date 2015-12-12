@@ -8,4 +8,8 @@
 	{{#if showModal}}
 		{{vote-modal showModal=showModal list=testData}}
 	{{/if}}
+
+	{{#each model as |restaurant|}}
+	  <p>{{restaurant.name}} {{restaurant.votes}}</p>
+	{{/each}}
 </div>
