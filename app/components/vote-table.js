@@ -12,5 +12,12 @@ export default Ember.Component.extend({
 	{
 		restaurant: 'Super Plate',
 		votes: 2
-	}]
+	}],
+
+	actions: {
+		vote: function (restaurant) {
+			restaurant.set('votes', restaurant.get('votes') + 1);
+			// restaurant.save();
+		}
+	}
 });

@@ -1,11 +1,9 @@
-<h1>asdf</h1>
 {{#if list}}
-	<p>qwerty</p>
 	<div class="vote-table">
 		<table>
 			{{#each list key="@index" as |data|}}
 				<tr>
-					<td>{{data.restaurant}}</td> <td>{{data.votes}}</td>
+					<td>{{data.name}}</td> <td>{{data.votes}}</td> <td><button {{action 'vote' data}}>+</button></td>
 				</tr>
 			{{/each}}
 		</table>
